@@ -4,5 +4,7 @@ runs:
   using: "composite"
   steps:
     - id: nabil
-      run: echo hello
+      run: echo starting local action
+      shell: bash
+    - run: python ./.github/workflows/waku.py
       shell: bash
