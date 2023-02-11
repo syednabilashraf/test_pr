@@ -1,0 +1,13 @@
+name: action
+
+on:
+  workflow_dispatch:
+  
+ jobs:
+  wakujob:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+        name: Checking out
+      - run: python ./github/workflows/waku.py
+        name: Running Script
