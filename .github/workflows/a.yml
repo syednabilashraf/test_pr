@@ -14,3 +14,6 @@ jobs:
         env: 
           wakanda_var: 1
           wakanda_var2: 2
+      - name: Using local action
+        uses: ./
+        
