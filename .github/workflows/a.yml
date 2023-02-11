@@ -11,3 +11,6 @@ jobs:
         name: Checking out
       - run: python ./.github/workflows/waku.py
         name: Running Script
+        env: 
+          wakanda_var: 1
+          wakanda_var2: 2
