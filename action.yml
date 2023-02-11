@@ -1,0 +1,7 @@
+name: composite action
+
+runs:
+  using: "composite"
+  steps:
+    - id: nabil
+      run: echo hello
