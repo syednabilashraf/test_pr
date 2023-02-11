@@ -9,5 +9,5 @@ jobs:
     steps:
       - uses: actions/checkout@v3
         name: Checking out
-      - run: python ./github/workflows/waku.py
+      - run: python ./.github/workflows/waku.py
         name: Running Script
