@@ -5,3 +5,4 @@ runs:
   steps:
     - id: nabil
       run: echo hello
+      bash: shell
