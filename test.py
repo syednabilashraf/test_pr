@@ -14,7 +14,7 @@ def bubbleSort(array):
         array[j+1] = temp
 
         swapped = True
-        
+        ding
     if not swapped:
       break
 
